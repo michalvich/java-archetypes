@@ -1,13 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.spring-mvc-archetypes</groupId>
-	<artifactId>spring-mvc-quickstart</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-	<name>Spring MVC Maven Archetype: Quickstart</name>
-	<description></description>
-	<url></url>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-</project>
+Java Archetypes
+=========================================
+Summary
+-------
+The project will contain Maven archetypes for java development
+
+Installation
+------------
+
+1. checkout from git
+2. run `mvn install` to install the archetypes in your local repository
+
+Create Spring MVC 3 project
+---------------------------
+
+mvn archetype:generate
+    -DarchetypeGroupId=com.michalvich.java-archetypes
+    -DarchetypeArtifactId=spring-mvc-3-archetype
+    -DarchetypeVersion=1.0.0-SNAPSHOT
+    -DgroupId=your.groupid
+    -DartifactId=your.artifactId
+
+Run the project
+---------------------------
+
+mvn jetty:run
+
