@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><archetype>
+  <id>spring-mvc-3-archetype</id>
+  <sources>
+    <source>src\main\java\com\michalvich\spring\mvc\controller\WelcomeController.java</source>
+  </sources>
+  <resources>
+    <resource>src\main\webapp\index.jsp</resource>
+    <resource>src\main\webapp\WEB-INF\jsp\welcome.jsp</resource>
+    <resource>src\main\webapp\WEB-INF\spring-servlet.xml</resource>
+    <resource>src\main\webapp\WEB-INF\web.xml</resource>
+    <resource>.idea\.name</resource>
+    <resource>.idea\ant.xml</resource>
+    <resource>.idea\compiler.xml</resource>
+    <resource>.idea\copyright\profiles_settings.xml</resource>
+    <resource>.idea\encodings.xml</resource>
+    <resource>.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml</resource>
+    <resource>.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_aop_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_beans_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_context_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_core_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_expression_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\libraries\Maven__org_springframework_spring_web_3_2_1_RELEASE.xml</resource>
+    <resource>.idea\misc.xml</resource>
+    <resource>.idea\modules.xml</resource>
+    <resource>.idea\scopes\scope_settings.xml</resource>
+    <resource>.idea\uiDesigner.xml</resource>
+    <resource>.idea\vcs.xml</resource>
+    <resource>.idea\workspace.xml</resource>
+    <resource>spring-mvc-mongodb.iml</resource>
+  </resources>
+</archetype>
