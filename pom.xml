@@ -14,7 +14,7 @@
 
 	<modules>
 	    <module>spring-mvc-3-archetype</module>
-        <module>spring-data-mongodb-archetype</module>
+        <module>spring-data-mongodb-service-archetype</module>
   </modules>
 
 </project>
