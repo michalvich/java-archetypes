@@ -13,12 +13,14 @@ Installation
 Create Spring MVC 3 project
 ---------------------------
 
-mvn archetype:generate
-    -DarchetypeGroupId=com.michalvich.java-archetypes
-    -DarchetypeArtifactId=spring-mvc-3-archetype
-    -DarchetypeVersion=1.0.0-SNAPSHOT
-    -DgroupId=your.groupid
-    -DartifactId=your.artifactId
+    mvn archetype:generate
+        -DarchetypeGroupId=com.michalvich.java-archetypes
+        -DarchetypeArtifactId=spring-mvc-3-archetype
+        -DarchetypeVersion=1.0.0-SNAPSHOT
+        -DgroupId=your.groupid
+        -DartifactId=your-artifactId
+        -Dversion=version
+
 
 Run the project
 ---------------------------
