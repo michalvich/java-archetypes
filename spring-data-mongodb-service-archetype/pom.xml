@@ -6,7 +6,7 @@
   <artifactId>spring-data-mongodb-service-archetype</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
-  <name>spring-data-mongodb-archetype</name>
+  <name>spring-data-mongodb-service-archetype</name>
   <build>
     <extensions>
       <extension>
