@@ -33,7 +33,7 @@ Create Spring Data MongoDB Service project
     mvn archetype:generate
         -DarchetypeGroupId=com.michalvich.java-archetypes
         -DarchetypeArtifactId=spring-data-mongodb-service-archetype
-        -DarchetypeVersion=1.0-SNAPSHOT
+        -DarchetypeVersion=1.0.0-SNAPSHOT
         -DgroupId=your.groupid
         -DartifactId=your-artifactId
         -Dversion=version
