@@ -23,7 +23,7 @@ Create Spring MVC 3 project
 
 
 Run the project
----------------------------
+----------------------------
 
 mvn jetty:run
 
